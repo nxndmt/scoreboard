@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+body {
+    margin: 0;
+    background: linear-gradient(0deg, #000001 , #018 150%);
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container2 {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h2 {
+    color: white;
+    margin-top: 40px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: white;
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.score {
+    margin-top: 20px;
+    color: #f20;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 40pt;
+    text-align: center;
+    background: #000020;
+    padding: 10px;
+    box-shadow: inset 4px 4px 12px #000;
+    border-radius: 20px;
+}
+
+button:hover {
+    background: #f20;
+    box-shadow: 0 0 12px #f10;
+}
+
+.btns {
+    margin-top: -20px;
+}
+
+.btn1 {
+    font-family: Rubik;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(0deg, #000001 , #028 150%);
+    padding: 5px;
+    border: 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px #002;
+}
+
+#btn2 {
+    margin-top: 30px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 12pt;
+    color: #002;
+    background: #ddd;
+    padding: 8px;
+    border: 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #f00;
+}
+
+#counter {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 20pt;
+    color: white;
+}
