@@ -1,38 +1,42 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div>
-                <h3>HOME</h3>
-                <p class="score" id="home">0</p>
-                <div class="btns">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <p class="score" id="home">0</p>
+            <div class="btns">
                 <button class="btn1" onclick="home1()">+1</button>
                 <button class="btn1" onclick="home2()">+2</button>
                 <button class="btn1" onclick="home3()">+3</button>
-                </div> 
             </div>
-            <div>
-                <h3>GUEST</h3>
-                <p class="score" id="guest">0</p>
-                <div class="btns">
+        </div>
+        <div>
+            <h3>AWAY</h3>
+            <p class="score" id="guest">0</p>
+            <div class="btns">
                 <button class="btn1" onclick="guest1()">+1</button>
                 <button class="btn1" onclick="guest2()">+2</button>
                 <button class="btn1" onclick="guest3()">+3</button>
-                </div>    
-                </p>
             </div>
-            
+            </p>
         </div>
-        <div class="container2">
+
+    </div>
+    <div class="container2">
         <div class="timer">
-          <div id="counter"></div>
+            <div id="counter"></div>
         </div>
         <button id="btn2" onclick="newGame()">START GAME</button>
         <h2 id="leading"></h2>
 
-        </div>
-        <script src="index.js"></script>
-    </body>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
